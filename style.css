@@ -161,10 +161,10 @@ nav > ul > li > a{
     display: grid;
     width: 100%;
 }
-
+/*
 .card {
     opacity: 0;
-}
+}*/
 
 .sec1,
 .sec2{
@@ -295,7 +295,7 @@ nav > ul > li > a{
     text-align: center;
     padding-inline: 1.5rem;
     background-color: var(--White);
-    opacity: 0;
+    /*opacity: 0;*/
 }
 
 .testimony > .avatar {
@@ -334,10 +334,10 @@ nav > ul > li > a{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
+/*
 .gallery > *{
     opacity: 0;
-}
+}*/
 
 .gallery :nth-child(2) {
     transition-delay: .2s;
@@ -473,6 +473,7 @@ footer > ul > li > a {
 
     .title {
         font-size: 3.5rem;
+        margin-top: 4rem;
     }
 
     .arrow {
