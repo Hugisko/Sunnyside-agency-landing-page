@@ -161,10 +161,10 @@ nav > ul > li > a{
     display: grid;
     width: 100%;
 }
-/*
+
 .card {
     opacity: 0;
-}*/
+}
 
 .sec1,
 .sec2{
@@ -173,6 +173,7 @@ nav > ul > li > a{
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-color: var(--White);
     gap: 1rem;
     padding: 4rem 1.5rem;
 }
@@ -264,6 +265,7 @@ nav > ul > li > a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: var(--White);
     padding-top: 4rem;
     padding-bottom: 5rem;
 }
@@ -295,7 +297,7 @@ nav > ul > li > a{
     text-align: center;
     padding-inline: 1.5rem;
     background-color: var(--White);
-    /*opacity: 0;*/
+    opacity: 0;
 }
 
 .testimony > .avatar {
@@ -334,10 +336,10 @@ nav > ul > li > a{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-/*
+
 .gallery > *{
     opacity: 0;
-}*/
+}
 
 .gallery :nth-child(2) {
     transition-delay: .2s;
